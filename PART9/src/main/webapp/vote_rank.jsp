@@ -46,7 +46,6 @@
 			
 			<%
 				}
-				
 				stmt.close();
 				con.close();
 			%>
