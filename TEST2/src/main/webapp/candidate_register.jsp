@@ -10,7 +10,7 @@
 	<%@ include file="header.jsp"%>
 	<h3>후보등록</h3>
 
-	<form name="form" action="register_ok.jsp" method="post">
+	<form name="form" action="candidate_register_ok.jsp" method="post">
 	<table border="1">
 		<tr>
 			<td>후보번호</td>
@@ -38,14 +38,14 @@
 			<td>학력</td>
 			<td><select name="school">
 					<option value="">==학력을 선택하세요==</option>
-					<option value=1>중졸</option>
-					<option value=2>고졸</option>
-					<option value=3>전문대졸</option>
-					<option value=4>대졸</option>
-					<option value=5>석사수료</option>
-					<option value=6>석사취득</option>
-					<option value=7>박사수료</option>
-					<option value=8>박사취득</option>
+					<option value="1">중졸</option>
+					<option value="2">고졸</option>
+					<option value="3">전문대졸</option>
+					<option value="4">대졸</option>
+					<option value="5">석사수료</option>
+					<option value="6">석사취득</option>
+					<option value="7">박사수료</option>
+					<option value="8">박사취득</option>
 			</select></td>
 		</tr>
 

@@ -21,12 +21,12 @@
 		</div>
 		<div style="background-color: #ccc">
 		<br>
-			<a href="">후보조회</a>
+			<a href="candidate_list.jsp">후보조회</a>
 			<a href="candidate_register.jsp">후보등록</a>
-			<a href="">투표하기</a>
-			<a href="">투표결과조회</a>
-			<a href="">후보자순위</a>
-			<a href="">홈으로</a>
+			<a href="vote.jsp">투표하기</a>
+			<a href="result.jsp">투표결과조회</a>
+			<a href="candidate_rank.jsp">후보자순위</a>
+			<a href="index.jsp">홈으로</a>
 		</div>
 	</header>
 </body>
